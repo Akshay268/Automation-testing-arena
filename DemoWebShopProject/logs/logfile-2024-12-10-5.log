@@ -1,0 +1,53 @@
+2024-12-10T13:41:32.936+0530 INFO Inside onTestStart method , test execution started selectProductAndConfiguration
+2024-12-10T13:41:32.946+0530 INFO ----------------Test case to select product and customize the configuration -------------
+2024-12-10T13:41:35.006+0530 INFO Inside onTestStart method , test execution started addProductToCart
+2024-12-10T13:41:35.006+0530 INFO ----------------Test case to add the product to cart -------------
+2024-12-10T13:41:35.417+0530 INFO Inside onTestStart method , test execution started navigateToCartAndCheckout
+2024-12-10T13:41:35.417+0530 INFO ----------------Test case to navigate to cart page-------------
+2024-12-10T13:41:38.333+0530 INFO Inside onTestStart method , test execution started provideShippingAddressAndMethod
+2024-12-10T13:41:38.334+0530 INFO ----------------Test case to select shipping address and shipping method-------------
+2024-12-10T13:41:39.238+0530 INFO Inside onTestStart method , test execution started providePaymentMethodAndInfo
+2024-12-10T13:41:39.238+0530 INFO ----------------Test case to provide payment method and details-------------
+2024-12-10T13:41:40.069+0530 INFO Inside onTestStart method , test execution started confirmOrderAndVeirfyOrderDetails
+2024-12-10T13:41:40.069+0530 INFO ----------------Test case to confirm the order and verify the order details-------------
+2024-12-10T13:41:41.592+0530 INFO order number is generated and the order number is : Order number: 1849097
+2024-12-10T13:41:42.777+0530 INFO Inside onTestStart method , test execution started verifyTestFailure
+2024-12-10T13:41:42.790+0530 INFO Inside onTestStart method , test execution started verifyTestFailure
+2024-12-10T13:41:42.793+0530 INFO Inside onTestStart method , test execution started verifyTestFailure
+2024-12-10T15:21:24.545+0530 INFO [TestNG] Running:
+  D:\test-automation\workspace\DemoWebShopProject\testng.xml
+
+2024-12-10T15:21:24.876+0530 INFO Inside onStart method , test execution started chromeTest
+2024-12-10T15:21:32.488+0530 INFO Inside onTestStart method , test execution started login
+2024-12-10T15:21:32.489+0530 INFO ----------------Test case to Login to the application -------------
+2024-12-10T15:21:35.208+0530 INFO Inside onTestStart method , test execution started readAndDisplayMenuItems
+2024-12-10T15:21:35.208+0530 INFO ----------------Test case to Read the menu items and display the menu item count and menu item -------------
+2024-12-10T15:21:35.244+0530 INFO Total number of menu items are : 7
+Menu items are : 
+2024-12-10T15:21:35.346+0530 INFO 1 --> BOOKS
+2024-12-10T15:21:35.398+0530 INFO 2 --> COMPUTERS
+2024-12-10T15:21:35.432+0530 INFO 3 --> ELECTRONICS
+2024-12-10T15:21:35.469+0530 INFO 4 --> APPAREL & SHOES
+2024-12-10T15:21:35.519+0530 INFO 5 --> DIGITAL DOWNLOADS
+2024-12-10T15:21:35.564+0530 INFO 6 --> JEWELRY
+2024-12-10T15:21:35.600+0530 INFO 7 --> GIFT CARDS
+2024-12-10T15:21:35.606+0530 INFO Inside onTestStart method , test execution started compareScreenshots
+2024-12-10T15:21:35.607+0530 INFO ----------------Test case to compare screenshots -------------
+2024-12-10T15:21:35.942+0530 INFO Path of the captured screenshot is : D:\test-automation\workspace\DemoWebShopProject\screenshots\testName2024.21.345.03.21.35.png
+2024-12-10T15:21:36.436+0530 INFO ---- Images are same ----
+2024-12-10T15:21:38.166+0530 INFO ---- Images are different ----
+2024-12-10T15:21:38.174+0530 INFO Inside onTestStart method , test execution started selectProductAndConfiguration
+2024-12-10T15:21:38.175+0530 INFO ----------------Test case to select product and customize the configuration -------------
+2024-12-10T15:21:42.138+0530 INFO Inside onTestStart method , test execution started addProductToCart
+2024-12-10T15:21:42.138+0530 INFO ----------------Test case to add the product to cart -------------
+2024-12-10T15:21:42.711+0530 INFO Inside onTestStart method , test execution started navigateToCartAndCheckout
+2024-12-10T15:21:42.711+0530 INFO ----------------Test case to navigate to cart page-------------
+2024-12-10T15:21:46.786+0530 INFO Inside onTestStart method , test execution started provideShippingAddressAndMethod
+2024-12-10T15:21:46.787+0530 INFO ----------------Test case to select shipping address and shipping method-------------
+2024-12-10T15:21:48.298+0530 INFO Inside onTestStart method , test execution started providePaymentMethodAndInfo
+2024-12-10T15:21:48.298+0530 INFO ----------------Test case to provide payment method and details-------------
+2024-12-10T15:21:49.697+0530 INFO Inside onTestStart method , test execution started confirmOrderAndVeirfyOrderDetails
+2024-12-10T15:21:49.697+0530 INFO ----------------Test case to confirm the order and verify the order details-------------
+2024-12-10T15:21:51.665+0530 INFO order number is generated and the order number is : Order number: 1849192
+2024-12-10T15:21:53.093+0530 INFO Inside onTestStart method , test execution started verifyTestFailure
+2024-12-10T15:21:53.125+0530 INFO Inside onTestStart method , test execution started verifyTestFailure

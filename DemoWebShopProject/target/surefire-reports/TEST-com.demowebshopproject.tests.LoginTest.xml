@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="11" failures="1" name="com.demowebshopproject.tests.LoginTest" time="5.595" errors="0" skipped="10">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.boot.library.path" value="C:\Akshay\Eclipse\eclipse-java-2020-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\test-automation\workspace\DemoWebShopProject"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\test-automation\workspace\DemoWebShopProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\aksha\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\test-automation\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf15794583756045734567.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Akshay\Eclipse\eclipse-java-2020-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Akshay/Eclipse/eclipse-java-2020-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin/server;C:/Akshay/Eclipse/eclipse-java-2020-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Akshay\test-automation\apache-ant-1.9.15-bin\apache-ant-1.9.15\bin;C:\Akshay\test-automation\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\Kubernetes\Minikube;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Users\aksha\AppData\Local\Android\Sdk\platform-tools;C:\Users\aksha\AppData\Local\Android\Sdk\tools;C:\Users\aksha\AppData\Local\Android\Sdk\tools\bin;C:\Program Files (x86)\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\aksha\AppData\Local\Microsoft\WindowsApps;C:\Users\aksha\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\aksha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aksha\AppData\Roaming\npm;C:\Program Files\TestProject Agent;;C:\Akshay\Eclipse\eclipse-java-2020-12-R-win32-x86_64\eclipse;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\aksha"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="aksha"/>
+    <property name="java.class.path" value="C:\Akshay\Eclipse\eclipse-java-2020-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Akshay\Eclipse\eclipse-java-2020-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\test-automation\workspace\DemoWebShopProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.demowebshopproject.tests.LoginTest" name="setUp" time="5.588">
+    <failure message="
+Parameter &apos;browser&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>2024-12-09T05:38:08.236375900Z main DEBUG Apache Log4j Core 2.24 initializing configuration XmlConfiguration[location=D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml, lastModified=2024-12-09T04:16:34.155Z]
+2024-12-09T05:38:08.241143700Z main DEBUG PluginManager &apos;Core&apos; found 131 plugins
+2024-12-09T05:38:08.241143700Z main DEBUG PluginManager &apos;Level&apos; found 0 plugins
+2024-12-09T05:38:08.252587800Z main DEBUG Building Plugin[name=Property, class=org.apache.logging.log4j.core.config.Property].
+2024-12-09T05:38:08.292642100Z main TRACE TypeConverterRegistry initializing.
+2024-12-09T05:38:08.293646Z main DEBUG PluginManager &apos;TypeConverter&apos; found 26 plugins
+2024-12-09T05:38:08.317269900Z main DEBUG createProperty(name=&quot;LOG_PATTERN&quot;, value=&quot;%d{yyyy-MM-dd&apos;T&apos;HH:mm:ss.SSSZ} %p %m%n&quot;, Configuration(D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml))
+2024-12-09T05:38:08.318268200Z main DEBUG Building Plugin[name=Property, class=org.apache.logging.log4j.core.config.Property].
+2024-12-09T05:38:08.320267900Z main DEBUG createProperty(name=&quot;LOG_ROOT&quot;, value=&quot;./logs&quot;, Configuration(D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml))
+2024-12-09T05:38:08.320267900Z main DEBUG Building Plugin[name=Properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
+2024-12-09T05:38:08.327887400Z main DEBUG configureSubstitutor(={LOG_PATTERN=%d{yyyy-MM-dd&apos;T&apos;HH:mm:ss.SSSZ} %p %m%n, LOG_ROOT=./logs}, Configuration(D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml))
+2024-12-09T05:38:08.330888400Z main DEBUG PluginManager &apos;Lookup&apos; found 16 plugins
+2024-12-09T05:38:08.331913600Z main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-12-09T05:38:08.347053200Z main DEBUG PatternLayout$Builder(pattern=&quot;%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n&quot;, PatternSelector=null, Configuration(D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml), Replace=null, charset=&quot;null&quot;, alwaysWriteExceptions=&quot;null&quot;, disableAnsi=&quot;null&quot;, noConsoleNoAnsi=&quot;null&quot;, header=&quot;null&quot;, footer=&quot;null&quot;)
+2024-12-09T05:38:08.348055800Z main DEBUG PluginManager &apos;Converter&apos; found 45 plugins
+2024-12-09T05:38:08.369127300Z main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2024-12-09T05:38:08.382686800Z main DEBUG ConsoleAppender$Builder(target=&quot;SYSTEM_OUT&quot;, follow=&quot;null&quot;, direct=&quot;null&quot;, bufferedIo=&quot;null&quot;, bufferSize=&quot;null&quot;, immediateFlush=&quot;null&quot;, ignoreExceptions=&quot;null&quot;, PatternLayout(%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n), name=&quot;console&quot;, Configuration(D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml), Filter=null, ={})
+2024-12-09T05:38:08.387238900Z main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2024-12-09T05:38:08.388237900Z main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-12-09T05:38:08.390237800Z main DEBUG PatternLayout$Builder(pattern=&quot;%d{yyyy-MM-dd&apos;T&apos;HH:mm:ss.SSSZ} %p %m%n&quot;, PatternSelector=null, Configuration(D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml), Replace=null, charset=&quot;null&quot;, alwaysWriteExceptions=&quot;null&quot;, disableAnsi=&quot;null&quot;, noConsoleNoAnsi=&quot;null&quot;, header=&quot;null&quot;, footer=&quot;null&quot;)
+2024-12-09T05:38:08.393239600Z main DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2024-12-09T05:38:08.397785200Z main DEBUG createPolicy(size=&quot;5000&quot;)
+2024-12-09T05:38:08.411800700Z main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+2024-12-09T05:38:08.418580400Z main DEBUG RollingFileAppender$Builder(fileName=&quot;./logs/logfile.log&quot;, filePattern=&quot;./logs/logfile-%d{yyyy-MM-dd}-%i.log&quot;, append=&quot;null&quot;, locking=&quot;null&quot;, SizeBasedTriggeringPolicy(SizeBasedTriggeringPolicy(size=5000)), Strategy=null, advertise=&quot;null&quot;, advertiseUri=&quot;null&quot;, createOnDemand=&quot;null&quot;, filePermissions=&quot;null&quot;, fileOwner=&quot;null&quot;, fileGroup=&quot;null&quot;, bufferedIo=&quot;null&quot;, bufferSize=&quot;null&quot;, immediateFlush=&quot;null&quot;, ignoreExceptions=&quot;null&quot;, PatternLayout(%d{yyyy-MM-dd&apos;T&apos;HH:mm:ss.SSSZ} %p %m%n), name=&quot;File&quot;, Configuration(D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml), Filter=null, ={})
+2024-12-09T05:38:08.434721500Z main TRACE New file &apos;./logs/logfile.log&apos; created = false
+2024-12-09T05:38:08.459794100Z main DEBUG Returning file creation time for D:\test-automation\workspace\DemoWebShopProject\.\logs\logfile.log
+2024-12-09T05:38:08.459794100Z main DEBUG Starting RollingFileManager ./logs/logfile.log
+2024-12-09T05:38:08.464806800Z main DEBUG PluginManager &apos;FileConverter&apos; found 2 plugins
+2024-12-09T05:38:08.477114300Z main DEBUG Setting prev file time to 2024-12-03T21:18:14.831+0530
+2024-12-09T05:38:08.477114300Z main DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=5000)
+2024-12-09T05:38:08.477114300Z main DEBUG Building Plugin[name=Appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2024-12-09T05:38:08.478212500Z main DEBUG createAppenders(={console, File})
+2024-12-09T05:38:08.478212500Z main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-12-09T05:38:08.479225200Z main DEBUG createAppenderRef(ref=&quot;console&quot;, level=&quot;null&quot;, Filter=null)
+2024-12-09T05:38:08.479225200Z main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-12-09T05:38:08.480224400Z main DEBUG createAppenderRef(ref=&quot;File&quot;, level=&quot;null&quot;, Filter=null)
+2024-12-09T05:38:08.480224400Z main DEBUG Building Plugin[name=Root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2024-12-09T05:38:08.482231200Z main DEBUG LoggerConfig$RootLogger$Builder(additivity=&quot;null&quot;, level=&quot;INFO&quot;, levelAndRefs=&quot;null&quot;, includeLocation=&quot;null&quot;, ={console, File}, ={}, Configuration(D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml), Filter=null)
+2024-12-09T05:38:08.486025500Z main DEBUG Building Plugin[name=Loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2024-12-09T05:38:08.487043100Z main DEBUG createLoggers(={root})
+2024-12-09T05:38:08.488036400Z main DEBUG Configuration XmlConfiguration[location=D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml, lastModified=2024-12-09T04:16:34.155Z] initialized
+2024-12-09T05:38:08.488036400Z main INFO Starting configuration XmlConfiguration[location=D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml, lastModified=2024-12-09T04:16:34.155Z]...
+2024-12-09T05:38:08.488036400Z main INFO Start watching for changes to D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml every 0 seconds
+2024-12-09T05:38:08.488036400Z main INFO Configuration XmlConfiguration[location=D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml, lastModified=2024-12-09T04:16:34.155Z] started.
+2024-12-09T05:38:08.490563300Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@2a5c8d3f...
+2024-12-09T05:38:08.491862500Z main TRACE DefaultConfiguration notified 1 ReliabilityStrategies that config will be stopped.
+2024-12-09T05:38:08.491862500Z main TRACE DefaultConfiguration stopping root LoggerConfig.
+2024-12-09T05:38:08.491862500Z main TRACE DefaultConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+2024-12-09T05:38:08.491862500Z main TRACE DefaultConfiguration stopping remaining Appenders.
+2024-12-09T05:38:08.491862500Z main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2024-12-09T05:38:08.491862500Z main DEBUG OutputStream closed
+2024-12-09T05:38:08.491862500Z main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2024-12-09T05:38:08.491862500Z main DEBUG Appender DefaultConsole-1 stopped with status true
+2024-12-09T05:38:08.493355800Z main TRACE DefaultConfiguration stopped 1 remaining Appenders.
+2024-12-09T05:38:08.493355800Z main TRACE DefaultConfiguration cleaning Appenders from 1 LoggerConfigs.
+2024-12-09T05:38:08.493355800Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@2a5c8d3f stopped.
+2024-12-09T05:38:08.495902200Z main TRACE Using default SystemClock for timestamps.
+2024-12-09T05:38:08.497071Z main DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2024-12-09T05:38:08.497071Z main TRACE Using DummyNanoClock for nanosecond timestamps.
+2024-12-09T05:38:08.497071Z main DEBUG Reconfiguration complete for context[name=443b7951] at URI D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@4f4c4b1a) with optional ClassLoader: null
+2024-12-09T05:38:08.497071Z main DEBUG Shutdown hook enabled. Registering a new one.
+2024-12-09T05:38:08.499321500Z main DEBUG LoggerContext[name=443b7951, org.apache.logging.log4j.core.LoggerContext@4f4c4b1a] started OK.
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@4816278d
+2024-12-09T05:38:08.545073600Z main TRACE Log4jLoggerFactory.getContext() found anchor class org.testng.log4testng.Logger
+2024-12-09T05:38:12.428948800Z main TRACE Log4jLoggerFactory.getContext() found anchor class org.testng.log4testng.Logger
+2024-12-09T05:38:12.440541500Z main TRACE Log4jLoggerFactory.getContext() found anchor class org.testng.log4testng.Logger
+2024-12-09T05:38:12.663843200Z main TRACE Log4jLoggerFactory.getContext() found anchor class org.testng.log4testng.Logger
+2024-12-09T05:38:12.753598600Z main TRACE Log4jLoggerFactory.getContext() found anchor class org.testng.log4testng.Logger
+</system-out>
+  </testcase>
+  <testcase classname="com.demowebshopproject.tests.LoginTest" name="login" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.demowebshopproject.tests.LoginTest" name="readAndDisplayMenuItems" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.demowebshopproject.tests.LoginTest" name="compareScreenshots" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.demowebshopproject.tests.LoginTest" name="selectProductAndConfiguration" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.demowebshopproject.tests.LoginTest" name="addProductToCart" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.demowebshopproject.tests.LoginTest" name="navigateToCartAndCheckout" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.demowebshopproject.tests.LoginTest" name="provideShippingAddressAndMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.demowebshopproject.tests.LoginTest" name="providePaymentMethodAndInfo" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.demowebshopproject.tests.LoginTest" name="confirmOrderAndVeirfyOrderDetails" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.demowebshopproject.tests.LoginTest" name="teardown" time="0.002">
+    <skipped/>
+  </testcase>
+</testsuite>

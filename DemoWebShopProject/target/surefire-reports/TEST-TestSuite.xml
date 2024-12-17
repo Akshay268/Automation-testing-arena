@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="29.753" tests="12" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\test-automation\workspace\DemoWebShopProject\target\test-classes;D:\test-automation\workspace\DemoWebShopProject\target\classes;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\aksha\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\aksha\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\aksha\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\aksha\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\aksha\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\aksha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\aksha\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\aksha\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\aksha\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\aksha\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\aksha\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\aksha\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\aksha\.m2\repository\org\testng\testng\7.10.0\testng-7.10.0.jar;C:\Users\aksha\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\aksha\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\aksha\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\aksha\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\aksha\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\aksha\.m2\repository\com\google\code\gson\gson\2.6.2\gson-2.6.2.jar;C:\Users\aksha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\aksha\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.1\log4j-api-2.24.1.jar;C:\Users\aksha\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.1\log4j-core-2.24.1.jar;C:\Users\aksha\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\aksha\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\aksha\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\aksha\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\aksha\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\aksha\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.24.2\log4j-slf4j-impl-2.24.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\aksha\AppData\Local\Temp\surefire13474622592882835003\surefirebooter-20241210154907450_3.jar C:\Users\aksha\AppData\Local\Temp\surefire13474622592882835003 2024-12-10T15-49-07_222-jvmRun1 surefire-20241210154907450_1tmp surefire_0-20241210154907450_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\test-automation\workspace\DemoWebShopProject\target\test-classes;D:\test-automation\workspace\DemoWebShopProject\target\classes;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\aksha\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\aksha\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\aksha\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\aksha\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\aksha\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\aksha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\aksha\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\aksha\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\aksha\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\aksha\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\aksha\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\aksha\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\aksha\.m2\repository\org\testng\testng\7.10.0\testng-7.10.0.jar;C:\Users\aksha\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\aksha\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\aksha\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\aksha\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\aksha\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\aksha\.m2\repository\com\google\code\gson\gson\2.6.2\gson-2.6.2.jar;C:\Users\aksha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\aksha\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.1\log4j-api-2.24.1.jar;C:\Users\aksha\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.1\log4j-core-2.24.1.jar;C:\Users\aksha\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\aksha\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\aksha\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\aksha\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\aksha\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\aksha\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.24.2\log4j-slf4j-impl-2.24.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\aksha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="javax.accessibility.assistive_technologies" value="com.sun.java.accessibility.AccessBridge"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\test-automation\workspace\DemoWebShopProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="javax.accessibility.screen_magnifier_present" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\aksha\AppData\Local\Temp\surefire13474622592882835003\surefirebooter-20241210154907450_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
+    <property name="user.name" value="aksha"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\aksha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\aksha\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.5"/>
+    <property name="user.dir" value="D:\test-automation\workspace\DemoWebShopProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Akshay\test-automation\apache-ant-1.9.15-bin\apache-ant-1.9.15\bin;C:\Akshay\test-automation\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\Kubernetes\Minikube;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Users\aksha\AppData\Local\Android\Sdk\platform-tools;C:\Users\aksha\AppData\Local\Android\Sdk\tools;C:\Users\aksha\AppData\Local\Android\Sdk\tools\bin;C:\Program Files (x86)\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\aksha\AppData\Local\Microsoft\WindowsApps;C:\Users\aksha\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\aksha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aksha\AppData\Roaming\npm;C:\Program Files\TestProject Agent;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.5+9-LTS-239"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="login" classname="com.demowebshopproject.tests.LoginTest" time="2.328">
+    <system-out><![CDATA[2024-12-10T10:19:08.633359500Z main DEBUG Apache Log4j Core 2.24 initializing configuration XmlConfiguration[location=D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml, lastModified=2024-12-09T04:16:34.155Z]
+2024-12-10T10:19:08.640074300Z main DEBUG PluginManager 'Core' found 131 plugins
+2024-12-10T10:19:08.641215400Z main DEBUG PluginManager 'Level' found 0 plugins
+2024-12-10T10:19:08.647432200Z main DEBUG Building Plugin[name=Property, class=org.apache.logging.log4j.core.config.Property].
+2024-12-10T10:19:08.671334100Z main TRACE TypeConverterRegistry initializing.
+2024-12-10T10:19:08.671334100Z main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2024-12-10T10:19:08.671334100Z main DEBUG createProperty(name="LOG_PATTERN", value="%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n", Configuration(D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml))
+2024-12-10T10:19:08.671334100Z main DEBUG Building Plugin[name=Property, class=org.apache.logging.log4j.core.config.Property].
+2024-12-10T10:19:08.671334100Z main DEBUG createProperty(name="LOG_ROOT", value="./logs", Configuration(D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml))
+2024-12-10T10:19:08.671334100Z main DEBUG Building Plugin[name=Properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
+2024-12-10T10:19:08.688715800Z main DEBUG configureSubstitutor(={LOG_PATTERN=%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n, LOG_ROOT=./logs}, Configuration(D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml))
+2024-12-10T10:19:08.690467100Z main DEBUG PluginManager 'Lookup' found 16 plugins
+2024-12-10T10:19:08.690467100Z main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-12-10T10:19:08.701888700Z main DEBUG PatternLayout$Builder(pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n", PatternSelector=null, Configuration(D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-12-10T10:19:08.701888700Z main DEBUG PluginManager 'Converter' found 45 plugins
+2024-12-10T10:19:08.711659200Z main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2024-12-10T10:19:08.725700400Z main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n), name="console", Configuration(D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml), Filter=null, ={})
+2024-12-10T10:19:08.729698800Z main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2024-12-10T10:19:08.729698800Z main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-12-10T10:19:08.731484900Z main DEBUG PatternLayout$Builder(pattern="%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n", PatternSelector=null, Configuration(D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-12-10T10:19:08.733499400Z main DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2024-12-10T10:19:08.735633200Z main DEBUG createPolicy(size="5000")
+2024-12-10T10:19:08.740509800Z main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+2024-12-10T10:19:08.740509800Z main DEBUG RollingFileAppender$Builder(fileName="./logs/logfile.log", filePattern="./logs/logfile-%d{yyyy-MM-dd}-%i.log", append="null", locking="null", SizeBasedTriggeringPolicy(SizeBasedTriggeringPolicy(size=5000)), Strategy=null, advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n), name="File", Configuration(D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml), Filter=null, ={})
+2024-12-10T10:19:08.754082600Z main TRACE New file './logs/logfile.log' created = false
+2024-12-10T10:19:08.754082600Z main DEBUG Returning file creation time for D:\test-automation\workspace\DemoWebShopProject\.\logs\logfile.log
+2024-12-10T10:19:08.757460900Z main DEBUG Starting RollingFileManager ./logs/logfile.log
+2024-12-10T10:19:08.757460900Z main DEBUG PluginManager 'FileConverter' found 2 plugins
+2024-12-10T10:19:08.768242600Z main DEBUG Setting prev file time to 2024-12-10T15:21:53.216+0530
+2024-12-10T10:19:08.768242600Z main DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=5000)
+2024-12-10T10:19:08.769287700Z main DEBUG Building Plugin[name=Appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2024-12-10T10:19:08.769287700Z main DEBUG createAppenders(={console, File})
+2024-12-10T10:19:08.769287700Z main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-12-10T10:19:08.769287700Z main DEBUG createAppenderRef(ref="console", level="null", Filter=null)
+2024-12-10T10:19:08.769287700Z main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-12-10T10:19:08.769287700Z main DEBUG createAppenderRef(ref="File", level="null", Filter=null)
+2024-12-10T10:19:08.769287700Z main DEBUG Building Plugin[name=Root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2024-12-10T10:19:08.778099600Z main DEBUG LoggerConfig$RootLogger$Builder(additivity="null", level="INFO", levelAndRefs="null", includeLocation="null", ={console, File}, ={}, Configuration(D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml), Filter=null)
+2024-12-10T10:19:08.781115200Z main DEBUG Building Plugin[name=Loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2024-12-10T10:19:08.782365400Z main DEBUG createLoggers(={root})
+2024-12-10T10:19:08.782874700Z main DEBUG Configuration XmlConfiguration[location=D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml, lastModified=2024-12-09T04:16:34.155Z] initialized
+2024-12-10T10:19:08.782874700Z main INFO Starting configuration XmlConfiguration[location=D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml, lastModified=2024-12-09T04:16:34.155Z]...
+2024-12-10T10:19:08.782874700Z main INFO Start watching for changes to D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml every 0 seconds
+2024-12-10T10:19:08.782874700Z main INFO Configuration XmlConfiguration[location=D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml, lastModified=2024-12-09T04:16:34.155Z] started.
+2024-12-10T10:19:08.782874700Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@35047d03...
+2024-12-10T10:19:08.782874700Z main TRACE DefaultConfiguration notified 1 ReliabilityStrategies that config will be stopped.
+2024-12-10T10:19:08.782874700Z main TRACE DefaultConfiguration stopping root LoggerConfig.
+2024-12-10T10:19:08.782874700Z main TRACE DefaultConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+2024-12-10T10:19:08.782874700Z main TRACE DefaultConfiguration stopping remaining Appenders.
+2024-12-10T10:19:08.782874700Z main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2024-12-10T10:19:08.782874700Z main DEBUG OutputStream closed
+2024-12-10T10:19:08.782874700Z main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2024-12-10T10:19:08.782874700Z main DEBUG Appender DefaultConsole-1 stopped with status true
+2024-12-10T10:19:08.782874700Z main TRACE DefaultConfiguration stopped 1 remaining Appenders.
+2024-12-10T10:19:08.782874700Z main TRACE DefaultConfiguration cleaning Appenders from 1 LoggerConfigs.
+2024-12-10T10:19:08.782874700Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@35047d03 stopped.
+2024-12-10T10:19:08.782874700Z main TRACE Using default SystemClock for timestamps.
+2024-12-10T10:19:08.782874700Z main DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2024-12-10T10:19:08.782874700Z main TRACE Using DummyNanoClock for nanosecond timestamps.
+2024-12-10T10:19:08.782874700Z main DEBUG Reconfiguration complete for context[name=70dea4e] at URI D:\test-automation\workspace\DemoWebShopProject\target\test-classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@6bd61f98) with optional ClassLoader: null
+2024-12-10T10:19:08.782874700Z main DEBUG Shutdown hook enabled. Registering a new one.
+2024-12-10T10:19:08.782874700Z main DEBUG LoggerContext[name=70dea4e, org.apache.logging.log4j.core.LoggerContext@6bd61f98] started OK.
+2024-12-10T10:19:08.830947300Z main TRACE Log4jLoggerFactory.getContext() found anchor class org.testng.log4testng.Logger
+2024-12-10T10:19:08.970375100Z main TRACE Log4jLoggerFactory.getContext() found anchor class org.testng.log4testng.Logger
+2024-12-10T10:19:08.978047800Z main TRACE Log4jLoggerFactory.getContext() found anchor class org.testng.log4testng.Logger
+2024-12-10T10:19:09.123756500Z main TRACE Log4jLoggerFactory.getContext() found anchor class org.testng.log4testng.Logger
+2024-12-10T10:19:09.209704600Z main TRACE Log4jLoggerFactory.getContext() found anchor class org.testng.log4testng.Logger
+2024-12-10 15:49:09 INFO  ExtentReportManager:40 - Inside onStart method , test execution started chromeTest
+2024-12-10T10:19:09.574903900Z main TRACE Log4jLoggerFactory.getContext() found anchor class org.testng.log4testng.Logger
+2024-12-10 15:49:15 INFO  ExtentReportManager:45 - Inside onTestStart method , test execution started login
+2024-12-10 15:49:15 INFO  LoginTest:93 - ----------------Test case to Login to the application -------------
+]]></system-out>
+    <system-err><![CDATA[Dec 10, 2024 3:49:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="readAndDisplayMenuItems" classname="com.demowebshopproject.tests.LoginTest" time="0.532">
+    <system-out><![CDATA[2024-12-10 15:49:17 INFO  ExtentReportManager:45 - Inside onTestStart method , test execution started readAndDisplayMenuItems
+2024-12-10 15:49:17 INFO  LoginTest:106 - ----------------Test case to Read the menu items and display the menu item count and menu item -------------
+2024-12-10 15:49:17 INFO  HomePage:76 - Total number of menu items are : 7
+Menu items are : 
+2024-12-10 15:49:17 INFO  HomePage:79 - 1 --> BOOKS
+2024-12-10 15:49:18 INFO  HomePage:79 - 2 --> COMPUTERS
+2024-12-10 15:49:18 INFO  HomePage:79 - 3 --> ELECTRONICS
+2024-12-10 15:49:18 INFO  HomePage:79 - 4 --> APPAREL & SHOES
+2024-12-10 15:49:18 INFO  HomePage:79 - 5 --> DIGITAL DOWNLOADS
+2024-12-10 15:49:18 INFO  HomePage:79 - 6 --> JEWELRY
+2024-12-10 15:49:18 INFO  HomePage:79 - 7 --> GIFT CARDS
+]]></system-out>
+  </testcase>
+  <testcase name="compareScreenshots" classname="com.demowebshopproject.tests.LoginTest" time="2.236">
+    <system-out><![CDATA[2024-12-10 15:49:18 INFO  ExtentReportManager:45 - Inside onTestStart method , test execution started compareScreenshots
+2024-12-10 15:49:18 INFO  LoginTest:114 - ----------------Test case to compare screenshots -------------
+2024-12-10 15:49:18 INFO  LoginTest:127 - Path of the captured screenshot is : D:\test-automation\workspace\DemoWebShopProject\screenshots\testName2024.49.345.03.49.18.png
+2024-12-10 15:49:19 INFO  BaseClass:84 - ---- Images are same ----
+2024-12-10 15:49:20 INFO  BaseClass:82 - ---- Images are different ----
+]]></system-out>
+  </testcase>
+  <testcase name="selectProductAndConfiguration" classname="com.demowebshopproject.tests.LoginTest" time="3.578">
+    <system-out><![CDATA[2024-12-10 15:49:20 INFO  ExtentReportManager:45 - Inside onTestStart method , test execution started selectProductAndConfiguration
+2024-12-10 15:49:20 INFO  LoginTest:142 - ----------------Test case to select product and customize the configuration -------------
+]]></system-out>
+  </testcase>
+  <testcase name="addProductToCart" classname="com.demowebshopproject.tests.LoginTest" time="0.544">
+    <system-out><![CDATA[2024-12-10 15:49:24 INFO  ExtentReportManager:45 - Inside onTestStart method , test execution started addProductToCart
+2024-12-10 15:49:24 INFO  LoginTest:159 - ----------------Test case to add the product to cart -------------
+]]></system-out>
+  </testcase>
+  <testcase name="navigateToCartAndCheckout" classname="com.demowebshopproject.tests.LoginTest" time="4.425">
+    <system-out><![CDATA[2024-12-10 15:49:24 INFO  ExtentReportManager:45 - Inside onTestStart method , test execution started navigateToCartAndCheckout
+2024-12-10 15:49:24 INFO  LoginTest:167 - ----------------Test case to navigate to cart page-------------
+]]></system-out>
+  </testcase>
+  <testcase name="provideShippingAddressAndMethod" classname="com.demowebshopproject.tests.LoginTest" time="1.487">
+    <system-out><![CDATA[2024-12-10 15:49:29 INFO  ExtentReportManager:45 - Inside onTestStart method , test execution started provideShippingAddressAndMethod
+2024-12-10 15:49:29 INFO  LoginTest:183 - ----------------Test case to select shipping address and shipping method-------------
+]]></system-out>
+  </testcase>
+  <testcase name="providePaymentMethodAndInfo" classname="com.demowebshopproject.tests.LoginTest" time="1.502">
+    <system-out><![CDATA[2024-12-10 15:49:30 INFO  ExtentReportManager:45 - Inside onTestStart method , test execution started providePaymentMethodAndInfo
+2024-12-10 15:49:30 INFO  LoginTest:199 - ----------------Test case to provide payment method and details-------------
+]]></system-out>
+  </testcase>
+  <testcase name="confirmOrderAndVeirfyOrderDetails" classname="com.demowebshopproject.tests.LoginTest" time="3.908">
+    <system-out><![CDATA[2024-12-10 15:49:32 INFO  ExtentReportManager:45 - Inside onTestStart method , test execution started confirmOrderAndVeirfyOrderDetails
+2024-12-10 15:49:32 INFO  LoginTest:214 - ----------------Test case to confirm the order and verify the order details-------------
+2024-12-10 15:49:34 INFO  CheckoutPage:105 - order number is generated and the order number is : Order number: 1849237
+]]></system-out>
+  </testcase>
+  <testcase name="verifyTestFailure" classname="com.demowebshopproject.tests.LoginTest" time="0.0">
+    <skipped message="expected [true] but found [false]"/>
+    <system-out><![CDATA[2024-12-10 15:49:36 INFO  ExtentReportManager:45 - Inside onTestStart method , test execution started verifyTestFailure
+]]></system-out>
+  </testcase>
+  <testcase name="verifyTestFailure" classname="com.demowebshopproject.tests.LoginTest" time="0.0">
+    <skipped message="expected [true] but found [false]"/>
+    <system-out><![CDATA[2024-12-10 15:49:36 INFO  ExtentReportManager:45 - Inside onTestStart method , test execution started verifyTestFailure
+]]></system-out>
+  </testcase>
+  <testcase name="verifyTestFailure" classname="com.demowebshopproject.tests.LoginTest" time="0.202">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1067)
+	at org.testng.Assert.assertEquals(Assert.java:1031)
+	at org.testng.Assert.assertEquals(Assert.java:1077)
+	at com.demowebshopproject.tests.LoginTest.verifyTestFailure(LoginTest.java:232)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2024-12-10 15:49:36 INFO  ExtentReportManager:45 - Inside onTestStart method , test execution started verifyTestFailure
+]]></system-out>
+  </testcase>
+</testsuite>

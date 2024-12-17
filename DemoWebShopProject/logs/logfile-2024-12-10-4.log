@@ -1,0 +1,60 @@
+2024-12-10T13:38:45.155+0530 INFO [TestNG] Running:
+  D:\test-automation\workspace\DemoWebShopProject\testng.xml
+
+2024-12-10T13:38:45.324+0530 INFO Inside onStart method , test execution started chromeTest
+2024-12-10T13:38:50.022+0530 INFO Inside onTestStart method , test execution started login
+2024-12-10T13:38:50.023+0530 INFO ----------------Test case to Login to the application -------------
+2024-12-10T13:38:51.951+0530 INFO Inside onTestStart method , test execution started readAndDisplayMenuItems
+2024-12-10T13:38:51.952+0530 INFO ----------------Test case to Read the menu items and display the menu item count and menu item -------------
+2024-12-10T13:38:51.966+0530 INFO Total number of menu items are : 7
+Menu items are : 
+2024-12-10T13:38:51.997+0530 INFO 1 --> BOOKS
+2024-12-10T13:38:52.014+0530 INFO 2 --> COMPUTERS
+2024-12-10T13:38:52.028+0530 INFO 3 --> ELECTRONICS
+2024-12-10T13:38:52.042+0530 INFO 4 --> APPAREL & SHOES
+2024-12-10T13:38:52.060+0530 INFO 5 --> DIGITAL DOWNLOADS
+2024-12-10T13:38:52.076+0530 INFO 6 --> JEWELRY
+2024-12-10T13:38:52.090+0530 INFO 7 --> GIFT CARDS
+2024-12-10T13:38:52.092+0530 INFO Inside onTestStart method , test execution started compareScreenshots
+2024-12-10T13:38:52.093+0530 INFO ----------------Test case to compare screenshots -------------
+2024-12-10T13:38:52.300+0530 INFO Path of the captured screenshot is : D:\test-automation\workspace\DemoWebShopProject\screenshots\testName2024.38.345.01.38.52.png
+2024-12-10T13:38:52.525+0530 INFO ---- Images are same ----
+2024-12-10T13:38:53.391+0530 INFO ---- Images are different ----
+2024-12-10T13:38:53.391+0530 INFO Inside onTestStart method , test execution started selectProductAndConfiguration
+2024-12-10T13:38:53.391+0530 INFO ----------------Test case to select product and customize the configuration -------------
+2024-12-10T13:38:55.700+0530 INFO Inside onTestStart method , test execution started addProductToCart
+2024-12-10T13:38:55.700+0530 INFO ----------------Test case to add the product to cart -------------
+2024-12-10T13:38:56.138+0530 INFO Inside onTestStart method , test execution started navigateToCartAndCheckout
+2024-12-10T13:38:56.139+0530 INFO ----------------Test case to navigate to cart page-------------
+2024-12-10T13:39:27.464+0530 INFO Inside onTestStart method , test execution started provideShippingAddressAndMethod
+2024-12-10T13:39:27.464+0530 INFO ----------------Test case to select shipping address and shipping method-------------
+2024-12-10T13:39:29.213+0530 INFO Inside onTestStart method , test execution started providePaymentMethodAndInfo
+2024-12-10T13:39:29.213+0530 INFO ----------------Test case to provide payment method and details-------------
+2024-12-10T13:39:30.105+0530 INFO Inside onTestStart method , test execution started confirmOrderAndVeirfyOrderDetails
+2024-12-10T13:39:30.106+0530 INFO ----------------Test case to confirm the order and verify the order details-------------
+2024-12-10T13:39:31.668+0530 INFO order number is generated and the order number is : Order number: 1849093
+2024-12-10T13:39:32.311+0530 INFO Inside onTestStart method , test execution started verifyTestFailure
+2024-12-10T13:39:32.322+0530 INFO Inside onTestStart method , test execution started verifyTestFailure
+2024-12-10T13:39:32.324+0530 INFO Inside onTestStart method , test execution started verifyTestFailure
+2024-12-10T13:41:25.138+0530 INFO [TestNG] Running:
+  D:\test-automation\workspace\DemoWebShopProject\testng.xml
+
+2024-12-10T13:41:25.283+0530 INFO Inside onStart method , test execution started chromeTest
+2024-12-10T13:41:29.673+0530 INFO Inside onTestStart method , test execution started login
+2024-12-10T13:41:29.674+0530 INFO ----------------Test case to Login to the application -------------
+2024-12-10T13:41:31.560+0530 INFO Inside onTestStart method , test execution started readAndDisplayMenuItems
+2024-12-10T13:41:31.560+0530 INFO ----------------Test case to Read the menu items and display the menu item count and menu item -------------
+2024-12-10T13:41:31.575+0530 INFO Total number of menu items are : 7
+Menu items are : 
+2024-12-10T13:41:31.604+0530 INFO 1 --> BOOKS
+2024-12-10T13:41:31.620+0530 INFO 2 --> COMPUTERS
+2024-12-10T13:41:31.636+0530 INFO 3 --> ELECTRONICS
+2024-12-10T13:41:31.652+0530 INFO 4 --> APPAREL & SHOES
+2024-12-10T13:41:31.669+0530 INFO 5 --> DIGITAL DOWNLOADS
+2024-12-10T13:41:31.683+0530 INFO 6 --> JEWELRY
+2024-12-10T13:41:31.699+0530 INFO 7 --> GIFT CARDS
+2024-12-10T13:41:31.703+0530 INFO Inside onTestStart method , test execution started compareScreenshots
+2024-12-10T13:41:31.704+0530 INFO ----------------Test case to compare screenshots -------------
+2024-12-10T13:41:31.947+0530 INFO Path of the captured screenshot is : D:\test-automation\workspace\DemoWebShopProject\screenshots\testName2024.41.345.01.41.31.png
+2024-12-10T13:41:32.076+0530 INFO ---- Images are same ----
+2024-12-10T13:41:32.933+0530 INFO ---- Images are different ----
